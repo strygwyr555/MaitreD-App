@@ -1,0 +1,45 @@
+    body{
+        background: fixed;
+        
+    }
+
+    .container{
+       
+       margin: auto;
+       
+       padding: 20px;
+   }
+
+   h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .calc{
+       font-size: 25px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   .input{
+       padding-left: 8px;
+       height: 25px;
+       border-radius: 10px;
+       border: 1px grey solid;
+       
+   }
+   
+   #right{
+       float: right;
+   }
+   
+   .but{
+       color: rgb(0, 60, 255);
+       font-size: 30px;
+       margin-top: 25px;
+       margin-bottom: 10px;
+       width: 100%;
+       border-radius: 20PX;
+       cursor:pointer;
+   }
+   

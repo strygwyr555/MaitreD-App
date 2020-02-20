@@ -1,13 +1,63 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+
 <head>
-<title>Maitre D</title>
-<meta charset="UTF-8" />
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Enid Maharjan">
+    <meta name="Description" content="This web page to calculate grand total">
+    <title>Maitre D App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+
+
 </head>
+
 <body>
+    <div Class="container">
+        <header>
+            <h1>Maitre D</h1>
+        </header>
 
-<h1>Maitre D</h1>
+        <main>
+            <hr>
+            <br>
+            <span class="calc">Total:</span>
+            <input type="number" class="input" id="total" style="width: 80%; float: right;">
+            <br>
+            <br>
+            <span class="calc" id="tip">Tip: </span>
+            <!-- <input type="number" class ="inp"> -->
+            <input type="number" class="input" id="rate" style="float: right;">
+            <span class="calc" id="right">Rate:&nbsp</span>
+            <br>
+            <br>
+            <span class="calc" id="tax">Tax: $5.50</span>
+            <!-- <input type="number" class ="inp"> -->
+            <br>
+            <br>
+            <span class="calc" id="grandtotal">Grand Total: </span>
+            <!-- <input type="number" class ="inp"> -->
+            <br>
+            <br>
+            <button type="button" class="but" id="btn">Calculate</button>
+            <hr>
+        </main>
+        <footer>
+            <p style="text-align: center;">©2020 Enid Maharjan</p>
+        </footer>
 
+    </div>
+
+    <script src="main.js"></script>
 </body>
+
+
 </html>
